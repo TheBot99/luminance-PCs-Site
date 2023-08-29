@@ -1,68 +1,28 @@
-<!-- First navbar -->
+<div class="container  flex justify-between items-center">
+    <h1 class = "text-left my-2 mx-2 text-gray-500 text-4xl"><a href="/">Luminance PCs & Tech</a></h1>
+    <ul class="text-gray-500 flex justify-center space-x-28 text-2xl mx-auto">
+        <li class="hover:text-white transition hover:underline duration-500 ease-in-out"><a href="/">Home</a></li>
+        <li class="hover:text-white transition hover:underline duration-500 ease-in-out"><a href="/listings/PCs">PCs</a></li>
+        <li class="hover:text-white transition hover:underline duration-500 ease-in-out"><a href="/listings/Peripherals">Peripherals</a></li>
+    </ul>
+    <div class="flex justify-center items-center space-x-4">
+        <a href="/cart"><img src="/images/cart.png" alt="Cart" class="w-10 h-10"></a>
+    <div/>
+</div>
 
-
-
-
-<div class="navbar">
-    <div class="logo">
-        <h1><a href="/">Luminance PCs & Tech</a></h1>
-    </div>
-    <div class="menu">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="listings/PCs">PCs</a></li>
-        </ul>
-    </div>
-
-    <div></div>
 </div>
 
 
 
 
-<style>
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(31, 30, 30);
-        color: #b4b4b4;
-        padding: 10px;
-    }
 
-    .logo {
-        font-size: 2rem;
-    }
-
-    .menu ul {
-        display: flex;
-        justify-content: space-between;
-        list-style: none;
-    }
-
-    .menu ul li a {
-        color: #b4b4b4;
-        text-decoration: none;
-        padding: 15px;
-        transition: all 0.3s ease;
-        font-size: 1.2rem;
-        
-    }
-
-    .menu ul li a:hover {
-        color: #fff;
-        
-    }
-
-    .menu ul li a.active {
-        color: #fff;
-    }
-</style>
 
 
 
 <script>
+
     import "../app.css";
+    
 </script>
 
 
