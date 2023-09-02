@@ -1,9 +1,17 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+// tailwind.config.cjs
+module.exports = {
+  mode: 'jit',
+  // you dont need `purge: enabled: production` because you are using jit
+  purge: [ 
+    "./src/**/*.svelte",
+    // may also want to include HTML files
+    "./src/**/*.html"
+  ],
+  darkMode: 'class',
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
-};
+  variants: {},
+  plugins: [],
+}
 
